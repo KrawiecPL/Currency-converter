@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency converter</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/73efc6168d.js" crossorigin="anonymous"></script>
     <script defer src="index.js"></script>
 </head>
 <body>
@@ -15,13 +16,13 @@
         <div class="input-container">
             <div class="text-field">
                 <p>From:</p>
+                <div class="invert-button"><i class="fa-solid fa-arrows-up-down"></i> Invert</div>
             </div>
             <div class="input-field">
                 <input type="number" step="0.01" class="from-amount" placeholder="0,00">
                 <select id="from"></select>
             </div>
         </div>
-        
         <div class="input-container">
             <div class="text-field">
                 <p>To:</p>

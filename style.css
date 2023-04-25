@@ -45,6 +45,12 @@ h1 {
     flex-direction: column;
 }
 
+.container .input-container .text-field {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
 .container .input-container .text-field p {
     font-weight: bold;
     font-size: 20px;
@@ -98,5 +104,15 @@ input[type=number] {
     padding: 5px 10px;
     color: #fff;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.invert-button {
+    margin-left: auto;
+    cursor: pointer;
+    background: #1842fd;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 1em;
     font-weight: bold;
 }

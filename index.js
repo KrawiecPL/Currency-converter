@@ -2,6 +2,7 @@ const fromSymbol = document.getElementById("from");
 const toSymbol = document.getElementById("to");
 
 const convertButton = document.querySelector("button");
+const invertButton = document.querySelector(".invert-button");
 
 const API_KEY = "RnhI84gkKyeI9CL34qL4UUJzbHcziIIi";
 
@@ -92,4 +93,18 @@ function convertCurrency() {
     })
 }
 
+function invertCurrencies() {
+    let fromValue = fromSymbol.value;
+    let toValue = toSymbol.value;
+    toSymbol.value = fromValue;
+    fromSymbol.value = toValue;
+    if(document.querySelector(".to-amount").value !== '') {
+        let fromAmount = document.querySelector(".from-amount").value;
+        let toAmount = document.querySelector(".to-amount").value;
+        document.querySelector(".from-amount").value = toAmount;
+        document.querySelector(".to-amount").value = fromAmount;
+    }
+}
+
 convertButton.addEventListener('click', convertCurrency);
+invertButton.addEventListener('click', invertCurrencies);
