@@ -1,7 +1,7 @@
 # Currency-converter
 A simple currency converter
 
-![image](https://user-images.githubusercontent.com/116558814/234326826-92b8fc8b-ab9f-4c16-a74b-42e804292139.png)
+![image](https://user-images.githubusercontent.com/116558814/234338810-b6f9cde7-f00d-4ced-893f-2c861054bfac.png)
 
 
 
