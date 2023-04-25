@@ -1,5 +1,5 @@
 # Currency-converter
-A simple currency converter
+A simple currency converter built with Fixer API 
 
 ![image](https://user-images.githubusercontent.com/116558814/234338810-b6f9cde7-f00d-4ced-893f-2c861054bfac.png)
 
